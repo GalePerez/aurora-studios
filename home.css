@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+
+
+
+.logo1 {
+    padding-left: 3vw;
+}
+
+.welcome-photo {
+    width: 100vw;
+    height: 55vh;
+}
+
+
+@media screen and (min-width:720px){
+
+}
