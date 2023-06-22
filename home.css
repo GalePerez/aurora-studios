@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+
+
 * {
     margin: 0;
 }
@@ -13,6 +16,20 @@
     height: 55vh;
 }
 
+.cover {
+    position: relative;
+    color: white
+}
+
+.p1 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+    top: 40%;
+    left: 40%;
+}
 
 @media screen and (min-width:720px){
 
