@@ -133,10 +133,15 @@
 }
 
 .services-text {
+  font-family: 'Manrope', sans-serif;
+  font-size: large;
   color: white;
+
 }
 
 .services-list {
+  font-family: 'Manrope', sans-serif;
+  font-size: medium;
   color: white;
 }
 
