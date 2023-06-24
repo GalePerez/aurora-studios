@@ -132,15 +132,7 @@
   color: white;
 }
 
-.gallery-title {
-  font-family: 'Manrope', sans-serif;
-  font-weight: 800;
-  text-align: center;
-  font-size: large;
-  background-color: #7a2012;
-  color: #f7ebd4;
-}
 
 @media screen and (min-width:720px){
-  
+
 }
