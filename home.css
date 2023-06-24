@@ -130,13 +130,14 @@ a:link {
 .about-us-text {
   font-family: 'Manrope', sans-serif;
   font-weight: 400;
-  font-size: small;
+  font-size: 1rem;
   color: white;
 }
 
 .services-text {
   font-family: 'Manrope', sans-serif;
-  font-size: large;
+  font-size: 1.2rem;
+  font-weight: 800;
   color: white;
 
 }
@@ -144,6 +145,7 @@ a:link {
 .services-list {
   font-family: 'Manrope', sans-serif;
   font-size: medium;
+
   color: white;
 }
 
