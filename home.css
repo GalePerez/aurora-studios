@@ -5,7 +5,9 @@
     margin: 0;
 }
 
-
+a:link {
+  text-decoration: none;
+}
 
 .logo1 {
     padding-left: 3vw;
@@ -152,6 +154,14 @@
   align-items: center;
 }
 
+.button-2-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
 /*View More Button Start*/
 .button-2 {
   appearance: none;
@@ -263,6 +273,13 @@
 }
 /* BOOK NOW BUTTON END */
 
+h2 {
+  color: white;
+}
+
+h6 {
+  color: white;
+}
 
 @media screen and (min-width:720px){
 
