@@ -13,7 +13,7 @@
 
 .welcome-photo {
     width: 100vw;
-    height: 55vh;
+    height: 60vh;
     filter: opacity(40%);
 }
 
@@ -40,7 +40,7 @@
     position: absolute;
     transform: translate(-50%, -50%);
     color: white;
-    top: 75%;
+    top: 70%;
     left: 40%;
 }
 
@@ -107,6 +107,30 @@
     left: 50%;
   }
 /* BOOK NOW BUTTON END*/
+
+.container1 {
+  margin: 5px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+
+.about-us-title {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  text-align: center;
+  font-size: large;
+  background-color: #7a2012;
+  color: #f7ebd4;
+
+}
+
+.about-us-text {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: small;
+  color: white;
+}
 
 @media screen and (min-width:720px){
 
