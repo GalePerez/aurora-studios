@@ -194,7 +194,7 @@ a:link {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 40%;
+  width: 20vw;
   will-change: transform;
 }
 
@@ -366,6 +366,8 @@ h6 {
   font-size: small;
 }
 @media screen and (min-width:900px){
+  
+  
   .welcome-photo {
       width: 100vw;
       height: 90vh;
@@ -394,9 +396,9 @@ h6 {
   }
 
   .p1:hover {
-    color: #ffffff;
+    transition: all 0.3s cubic-bezier(0.000, 0.000, 0.230, 1);
+    background-position: 0%;
   }
-
   
   .p2 { 
     display: none;
@@ -453,14 +455,16 @@ h6 {
 
   .gallery {
     line-height:0;
-    -webkit-column-count:5; /* split it into 5 columns */
+    -webkit-column-count:4; /* split it into 5 columns */
     -webkit-column-gap:5px; /* give it a 5px gap between columns */
-    -moz-column-count:3;
+    -moz-column-count:4;
     -moz-column-gap:5px;
-    column-count:2;
+    column-count:4;
     column-gap:5px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+
  }
 
  .gallery img {
@@ -472,6 +476,10 @@ h6 {
 
   .gallery img:hover {
   filter:none;
+}
+
+.button-2 {
+  width: 12vw;
 }
 
 }
