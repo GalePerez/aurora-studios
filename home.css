@@ -553,5 +553,7 @@ h6 {
 
   .back-top {
     text-align: center;
+    color: white;
+    background-color: #7a2012;
   }
 }
