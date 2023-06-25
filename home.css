@@ -451,8 +451,27 @@ h6 {
     margin-right: auto;
   }
 
+  .gallery {
+    line-height:0;
+    -webkit-column-count:5; /* split it into 5 columns */
+    -webkit-column-gap:5px; /* give it a 5px gap between columns */
+    -moz-column-count:3;
+    -moz-column-gap:5px;
+    column-count:2;
+    column-gap:5px;
+    display: flex;
+    flex-direction: row;
+ }
 
+ .gallery img {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom:5px; /* to match column gap */
+  filter: grayscale(100%);
+}
 
-
+  .gallery img:hover {
+  filter:none;
+}
 
 }
