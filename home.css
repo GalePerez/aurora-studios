@@ -380,8 +380,17 @@ h6 {
     font-size: 20px;
   }
 
+  .nav-link:hover {
+    color: #7a2012;
+  }
+
+  .nav-item a:hover {
+    color: #7a2012;
+  }
+
   .home {
-    margin-left: 20vw;
+    margin-left: 40vw;
+    margin-right: 2vw;
   }
   
   .p1 {
@@ -465,21 +474,33 @@ h6 {
     flex-direction: row;
     flex-wrap: wrap;
 
- }
+  }
 
  .gallery img {
   width: 100% !important;
   height: auto !important;
   margin-bottom:5px; /* to match column gap */
   filter: grayscale(100%);
-}
+  }
 
   .gallery img:hover {
   filter:none;
-}
+  }
 
-.button-2 {
+  .button-2 {
   width: 12vw;
-}
+  }
+
+  .studio-photo {
+    width: 50vw;
+  }
+
+  .book-now {
+    width: 80vw;
+    border: solid red;
+    margin: auto;
+    left: auto;
+    right: auto;
+  }
 
 }
