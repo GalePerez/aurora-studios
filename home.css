@@ -556,4 +556,21 @@ h6 {
     color: white;
     background-color: #7a2012;
   }
+
+  ::-webkit-scrollbar{
+    width: 14px;
+  }
+  
+  ::-webkit-scrollbar-track{
+    border-radius: 5px;
+    box-shadow: inset .7px .7px 1px #4b4b4b;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+  background: #7a2012;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #7a2012, #7a2012);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #7a2012, #7a2012); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  }
 }
