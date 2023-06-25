@@ -380,17 +380,18 @@ h6 {
     font-size: 20px;
   }
 
-  .nav-link:hover {
-    color: #7a2012;
+  .home {
+    color: #f7ebd4;
   }
 
-  .nav-item a:hover {
+  .nav-link:hover {
+    background-color: #f7ebd4;
     color: #7a2012;
+    border-radius: 5px;
   }
 
   .home {
     margin-left: 40vw;
-    margin-right: 2vw;
   }
   
   .p1 {
@@ -484,7 +485,7 @@ h6 {
   }
 
   .gallery img:hover {
-  filter:none;
+    filter:none;
   }
 
   .button-2 {
@@ -497,10 +498,33 @@ h6 {
 
   .book-now {
     width: 80vw;
-    border: solid red;
     margin: auto;
+    margin-top: 5vh;
     left: auto;
     right: auto;
+  }
+
+  .book-now-text {
+    font-size: 50px;
+  }
+
+  .book-now-text:hover {
+    color: #f7ebd4;
+    font-size: 60px;
+  }
+
+  .button-3 {
+    width: 20vw;
+    height: 10vh;
+    font-size: 30px;
+  }
+
+  .button-3:hover {
+    width: 30vw;
+  }
+
+  .book-now-text2 {
+    font-size: 25px;
   }
 
 }
