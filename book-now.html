@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+        
+        
+        .nav-item {
+            font-family: 'Manrope', sans-serif;
+            font-weight: 800;
+            font-size: 20px;
+        }
+
+        .home {
+            color: #f7ebd4;
+        }
+
+        .nav-link:hover {
+            background-color: #f7ebd4;
+            color: #7a2012;
+            border-radius: 5px;
+        }
+
+        .title {
+            font-family: 'Manrope', sans-serif;
+            font-weight: 400;
+            color: #eedab5;
+            text-align: center;
+        }
+
+        h6 {
+            color: white;
+        }
+
+        h2 {
+            color: white;
+        }
+
+        .card {
+            width: 70vw;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    </style>
+</head>
+<body class="bg-dark">
+    <header>
+        <header class="pe-2">
+            <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+                <a href="#" class="logo1 navbar-brand ">
+                        <img src="./photos/logo2.png" alt="logo" width="160" height="40">
+                </a>
+                <button class="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span> 
+                        <i class="fas fa-bars" style="color: #f7ebd4;"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse text-align-center" id="navbarNav">
+                    <ul class="navbar-nav gap-1 text-center fw-bold">
+                        <li class="nav-item">
+                                <a href="index.html" class="nav-link text-uppercase home">Back to Home</a>
+                        </li>
+                </div>
+            </nav>
+        </header>
+    </header>
+    <div>
+        <h1 class="title">
+            Book your photography session with Aurora Studios today
+            Aurora Studios: Illuminate Your Story
+        </h1>
+    </div>
+    <div class="card bg-dark">
+        <div class="card-body">
+            <h2>
+                Booking form:
+            </h2>
+
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+                <div id="emailHelp" class="form-text">So we can reply back to you</div>
+              </div>
+            <div class="form-floating mb-3">
+                <input type="number" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Contact Number (ex: 0942744896)</label>
+            </div>
+            <h6>
+                Project Info
+            </h6>
+            <div class="form-floating mb-3">
+                <textarea class="form-control" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Type here (Please add Date of Event)</label>
+            </div>
+            <div class="form-floating">
+                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                  <option selected>Type of Photography</option>
+                  <option value="1">Indoor Studio</option>
+                  <option value="2">Outdoors-Events</option>
+                  <option value="3">Outdoors-Personal</option>
+                </select>
+                <label for="floatingSelect">Select</label>
+              </div>
+            <a href="#">
+                <div class="button-4-center m-3">
+                    <button type="button" class="btn btn-primary px-4">Send</button>
+                </div>
+            </a>
+            
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
