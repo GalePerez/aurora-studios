@@ -366,7 +366,9 @@ h6 {
   font-size: small;
 }
 @media screen and (min-width:900px){
-  
+  body {
+    overflow-x: hidden;
+  }
 
   .welcome-photo {
       width: 100vw;
@@ -381,7 +383,7 @@ h6 {
   }
 
   .home {
-    color: #f7ebd4;
+    color: #eedab5;
   }
 
   .nav-link:hover {
@@ -494,9 +496,6 @@ h6 {
   font-size: 25px;
   }
 
-  .studio-photo {
-    width: 50vw;
-  }
 
   .book-now {
     width: 80vw;
@@ -540,7 +539,7 @@ h6 {
   }
 
   .card {
-    width: 48vw;
+    width: 50vw;
   }
 
   .contact-info {
@@ -548,4 +547,11 @@ h6 {
     margin: 0;
   }
 
+  .contact-text {
+    font-size: 1.2vw;
+  }
+
+  .back-top {
+    text-align: center;
+  }
 }
