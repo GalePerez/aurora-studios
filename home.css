@@ -489,7 +489,9 @@ h6 {
   }
 
   .button-2 {
-  width: 12vw;
+  width: 20vw;
+  height: 10vh;
+  font-size: 25px;
   }
 
   .studio-photo {
@@ -516,7 +518,7 @@ h6 {
   .button-3 {
     width: 20vw;
     height: 10vh;
-    font-size: 30px;
+    font-size: 2vw;
   }
 
   .button-3:hover {
@@ -525,6 +527,25 @@ h6 {
 
   .book-now-text2 {
     font-size: 25px;
+  }
+
+
+
+  .desktop-only-container3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  .card {
+    width: 48vw;
+  }
+
+  .contact-info {
+    width: 48vw;
+    margin: 0;
   }
 
 }
